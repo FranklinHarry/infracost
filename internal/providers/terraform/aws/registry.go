@@ -53,7 +53,7 @@ var ResourceRegistry []*schema.RegistryItem = []*schema.RegistryItem{
 	getKinesisAnalyticsApplicationRegistryItem(),
 	getKinesisDataAnalyticsRegistryItem(),
 	getKinesisDataAnalyticsSnapshotRegistryItem(),
-	GetKinesisFirehoseDeliveryStreamRegistryItem(),
+	getKinesisFirehoseDeliveryStreamRegistryItem(),
 	GetLambdaFunctionRegistryItem(),
 	getLBRegistryItem(),
 	getLightsailInstanceRegistryItem(),
